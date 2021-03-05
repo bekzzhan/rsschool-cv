@@ -12,3 +12,16 @@
   * HTML & CSS
   * GIT
   * BASH
+  #### Example of my code:
+```
+import readlineSync from 'readline-sync';
+
+const greeting = () => {
+  console.log('Welcome to the Brain Games!');
+  const gamerName = readlineSync.question('May I have your name? ');
+  name.push(gamerName);
+  console.log(`Hello, ${gamerName}!`);
+};
+
+export default greeting;
+```
