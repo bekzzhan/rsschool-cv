@@ -1,0 +1,35 @@
+html {
+    font-family: Roboto, sans-serif;
+    color: #333;
+    width: 500px;
+    margin: 0px auto;
+  }
+  
+  img {
+    width: auto;
+    height: 250px;
+  }
+  .photo {
+    margin-top: 20px;
+    width: auto;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .photo,
+  .info {
+    width: 250px;
+  }
+  
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  
+  
+  
